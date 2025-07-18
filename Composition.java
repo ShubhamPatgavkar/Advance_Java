@@ -15,11 +15,11 @@ class Car{
         System.out.println("Car is Running");
     }
 }
-// Example of Association
+// Example of Aggregation
 class Car1 {
     Engine e;
     Car1(Engine e1){ // here is object of another clas has been passed
-        this.e = e1;
+        this.e = e1; // weak relation
     }
 
     public void start(){
